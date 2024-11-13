@@ -25,5 +25,8 @@ for i in range(len(B)-1):
     if B[i][1]<=0:
         cost+=(abs(B[i][1])+1)*diff
         B[i+1][1] -= abs(B[i][1])+1
+    elif B[i][1]>1:
+        print(-1)
+        exit()
 
 print(cost if B[-1][1]>0 else -1)
