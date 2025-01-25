@@ -27,6 +27,11 @@ acc new abc???
 ### テストケース実行
 e. g ) a 問題を提出する場合
 ```
-teisyutu a/main.py
+cd a
+test-cli main.py
+```
+### 提出
+```
+teisyutu main.py
 ```
 teisyutu は[zshrc](https://github.com/seesaw-monster/zsh)にて定義
